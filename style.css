@@ -1,0 +1,72 @@
+* {
+    font-family: 'Odibee Sans', cursive;
+}
+body {
+    background-color: lightblue;
+}
+h1 {
+    font-family: Evil Empire;
+    font-size: 100px;
+    margin: 17px;
+}
+.grid {
+    width: auto;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 36px;
+    gap: 0px 69px;
+}
+.square {
+    width: 130px;
+    height: 130px;
+    border: 1px solid black;
+    background-color: saddlebrown;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.board {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 11px 0px;
+    color: white;
+}
+.game-card {
+    font-size: 20px;
+    width: 800px;
+    background-image:url(img/grass.jpg);
+    opacity: 0.8;
+    height: 739px;
+    border-radius: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-size: 300px;
+}
+.mole {
+    background-image: url(img/mole.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#btn {
+    width: 30%;
+    height: 10vh;
+    padding: 0px;
+    margin: -9px;
+    border-radius: 30px;
+    margin: 110px;
+    cursor: pointer;
+    font-size: 40px
+}
