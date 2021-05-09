@@ -4,7 +4,6 @@ const timeLeft = document.querySelector('#Time-left')
 const score = document.querySelector('#score')
 const btn = document.querySelector('#btn')
 const gameCard = document.querySelector('.game-card')
-document.getElementById("myAudio").loop = true;
 
 let result = 0
 let hitPosition
@@ -12,6 +11,13 @@ let currentTime = 60
 let timerId = null
 
 
+// var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+// if (!isChrome){
+//     ('#iframeAudio').remove()
+// }
+// else {
+//     ('#playAudio').remove() 
+// }
 
 function randomSquare() {
 
